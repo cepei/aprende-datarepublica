@@ -258,7 +258,7 @@ ul.idiomas li a:hover{
   text-align: center;
 }
 .logo-modulo img{
-  max-width: 85%;
+  max-width: 65%;
 }
 .title-modulo{
   text-align: center;
@@ -281,6 +281,7 @@ ul.idiomas li a:hover{
   width: 100%;
   background-color: #EEEEEE;
   padding: 10px;
+  margin: 25px 0;
 }
 .description-modulo-full {
   width: 100%;
@@ -392,10 +393,14 @@ ul.idiomas li a:hover{
 .container {
     width: auto;
 }
-
+@media(min-width: 1600px){
+  .logo-modulo img{
+    max-width: 45%;
+  }
+}
 @media(min-width: 1200px){
   .logo-modulo img{
-    max-width: 100%;
+    max-width: 50%;
   }
   .title-modulo h1{
     font-size: 56px;
@@ -407,11 +412,7 @@ ul.idiomas li a:hover{
     font-size: 24px;
   }    
 }
-@media(min-width: 1000px){
-  .logo-modulo img{
-    max-width: 75%;
-  }
-}
+
 @media(max-width:992px) {
   .modal-dialog {
     width: 600px;
@@ -432,7 +433,7 @@ ul.idiomas li a:hover{
 }
 @media(max-width:850px) {
   .logo-modulo img{
-    max-width: 100%;
+    margin-top: 10px;
   }
 }
 @media(max-width:768px) {
@@ -474,7 +475,7 @@ ul.idiomas li a:hover{
   }
 
   .header-section {
-    margin-top: 40px;
+    
   }
   
 }
